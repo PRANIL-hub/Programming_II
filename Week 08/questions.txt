@@ -1,0 +1,47 @@
+#Quick Questions
+
+1. What is the main difference between a list and a tuple?
+->The elements in the list can be changed after it is created whereas It can not be done in tuple.
+
+2. What is the convention for naming lists?
+->Using plural nouns,lower case letters and avoid using build-in functions.
+
+3. What would be a good name for a list of cities?
+->"cities" would be a good name for a list of cities.
+
+4. How many elements can you store in a list?
+->Any amount of elements can be stored but the only limit is system's memory.
+
+5. True or False? Elements in a list must all be of the same type (e.g. all strings or all integers)?
+->False
+
+6. What does Python's len function do? What types can it be used with?
+->It returns the number of items in the  object passed.
+
+
+#Lists Warmup - parts 1 and 2
+
+Part 1
+
+->Considering numbers = [10, 20, 40, 81] as the list definition,
+numbers[0] -> 10
+numbers[-1]-> 81
+numbers[3] -> 81
+20 in numbers -> True
+1 in numbers -> False
+numbers[1] + numbers[2] -> 60
+len(numbers) -> 4
+
+Part 2
+
+Change the first element of numbers to 1
+->numbers[0]=1
+
+Change the last element of numbers to 4
+->numbers[-1]=4
+
+Check if 1 is an element of numbers
+->print(1 in numbers)
+
+Print the second value in the list multiplied by 10
+->print(numbers[1]*10)
