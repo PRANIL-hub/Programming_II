@@ -1,0 +1,44 @@
+#Quick questions
+
+1.Explain the difference between the 'r' and 'w' modes when opening a file.
+->The difference is that 'r' mode opens the file in read mode only whereas 'w' mode opens the file in writing mode.
+
+2.What is a file object and how is it different from a file name or the file's contents?
+->A file object is an interface in Python (or other programming languages) that allows
+  you to interact with a file on disk.
+  It is different from the file name or the file's contents because file name is just a string and file contents
+  is the actual data where as fiile object is like a tool to access the data.
+
+3.Why is it necessary to close a file after it has been opened and used?
+->It is necessary to close a file after it has been opened and used to ensure all data is properly saved.
+
+4.What is a good principle for deciding whether a literal value should be stored in a CONSTANT?
+->A literal value should be stored in a CONSTANT if it carries a specific meaning or is used multiple times.
+
+5.Write a single Python expression that would evaluate to the file extension of a variable like
+  filename = "this_is_a_name.txt" or filename = "document.docx" In those two examples, the result of the expression
+  would be txt and docx respectively.
+-> A single expression will be filename.split('.')[-1]
+
+filename = "this_is_a_name.txt"
+extension = filename.split('.')[-1]
+filename = "document.docx"
+extension = filename.split('.')[-1]
+
+6.What is a good number of quick questions to have at the start of a practical?
+->A good number of quick question to have at the dstart of a practical would be 3 to 5 questions.
+
+# Logic exercise
+
+Considering the following list of 3 statements:
+
+There is exactly 1 false statement in this list.
+There are exactly 2 false statements in this list.
+There are exactly 3 false statements in this list.
+
+How many false statements are there in the list; 0, 1, 2 or 3?
+-> There are  2 false statements init the list
+if only 1 were false ,statement 2 would be false ,but
+that creates more then 1 false.
+if 2 are false , statement 1 and 3 are false and statement 2  is true which fits perfectly.
+0 or 3 flase statements lead to contradiction.
